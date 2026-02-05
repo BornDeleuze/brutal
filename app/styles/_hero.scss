@@ -12,7 +12,10 @@
   font-size:      clamp(5rem, 29vw, 28rem);
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background-image:        url('/images/boat.jpg');
+  background-image: image-set(
+    url('/images/boat.avif') type('image/avif'),
+    url('/images/boat.webp') type('image/webp'),
+  );
   background-size: 86vw auto;
   background-position: 1% 48%;
   background-clip:         text;
