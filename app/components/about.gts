@@ -45,7 +45,7 @@ export default class About extends Component {
                 <:body>
                   <div>
                     <p>
-                      At Marsh McLennan Agency I worked inside large-scale, regulated systems —
+                      At Marsh McLennan Agency I worked inside large-scale, regulated systems;
                       building and maintaining secure, accessible interfaces with Ember.js,
                       integrating authenticated APIs, and contributing to shared component
                       libraries across teams. I learned early that frontend work in serious
