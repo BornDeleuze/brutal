@@ -1,0 +1,111 @@
+.about {
+  display:               grid;
+  grid-template-columns: 1fr 1fr;
+  gap:                   var(--gutter);
+  align-items:           start;
+
+  // ── left col: heading + short intro
+  &__left {
+    position: sticky;
+    top:      var(--gutter);
+  }
+
+  &__heading {
+    font-family:    var(--font-display);
+    font-size:      clamp(2.8rem, 6vw, 4.5rem);
+    line-height:    1;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+  }
+
+  &__intro {
+    margin-top: 1.5rem;
+    color:      var(--text-muted);
+    font-size:  1rem;
+    line-height: 1.7;
+  }
+
+  // ── responsive: stack on narrow screens
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+
+    &__left {
+      position: static;
+    }
+  }
+}
+
+// ─── Accordion ─────────────────────────────────────────────────────────────────
+.accordion {
+  &__item {
+    border-top: 1px solid var(--border);
+
+    &:last-child {
+      border-bottom: 1px solid var(--border);
+    }
+  }
+
+  &__trigger {
+    width:           100%;
+    display:         flex;
+    align-items:     center;
+    justify-content: space-between;
+    background:      none;
+    border:          none;
+    color:           var(--text);
+    padding:         1.4rem 0;
+    cursor:          pointer;
+    text-align:      left;
+  }
+
+  &__title {
+    font-family:    var(--font-body);
+    font-size:      1.05rem;
+    font-weight:    400;
+    letter-spacing: 0.01em;
+  }
+
+  &__icon {
+    font-size:   1.3rem;
+    color:       var(--text-muted);
+    transition:  transform 0.3s ease, color 0.3s ease;
+    line-height: 1;
+  }
+
+  &__item--open &__icon {
+    color: var(--accent);
+  }
+
+  // ── animated body
+  &__body {
+    display:         grid;
+    grid-template-rows: 0fr;
+    transition:      grid-template-rows 0.35s ease;
+    overflow:        hidden;
+
+    // inner wrapper is what actually holds the content; grid-template-rows: 0fr collapses it
+    > :first-child {
+      min-height: 0;
+    }
+
+    p {
+      color:       var(--text-muted);
+      font-size:   0.95rem;
+      line-height: 1.75;
+      padding-bottom: 0.75rem;
+
+      & + p {
+        margin-top: 0.25rem;
+      }
+    }
+  }
+
+  &__item--open &__body {
+    grid-template-rows: 1fr;
+
+    p:last-child {
+      padding-bottom: 1.5rem;
+    }
+  }
+}

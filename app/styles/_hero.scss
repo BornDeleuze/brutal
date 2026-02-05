@@ -1,0 +1,40 @@
+.hero {
+  position:        relative;
+  min-height:      100vh;
+  display:         flex;
+  flex-direction:  column;
+  justify-content: flex-end;
+  padding:         var(--gutter);
+  padding-bottom:  var(--section-pad-y);
+
+&__name {
+  font-family:    'Kippenberger', sans-serif;
+  font-size:      clamp(5rem, 29vw, 28rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background-image:        url('/images/boat.jpg');
+  background-size: 86vw auto;
+  background-position: 1% 48%;
+  background-clip:         text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+  &__sub {
+    margin-top:  1.5rem;
+    max-width:   680px;
+    font-size:   1.15rem;
+    color:       var(--text-muted);
+    line-height: 1.55;
+  }
+
+  &__tag {
+    display:        inline-block;
+    margin-top:     1rem;
+    font-size:      0.78rem;
+    font-weight:    500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color:          var(--accent);
+  }
+}

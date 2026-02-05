@@ -1,0 +1,32 @@
+.site-nav {
+  display: flex;
+  gap: 2rem;
+  
+  a {
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    transition: color 0.2s ease;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+    }
+    
+    &:hover {
+      color: var(--text);
+      
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

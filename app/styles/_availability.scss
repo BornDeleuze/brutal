@@ -1,0 +1,64 @@
+.availability {
+  background: var(--bg-elevated);
+
+  &__inner {
+    display:         flex;
+    align-items:     center;
+    justify-content: space-between;
+    gap:             2rem;
+  }
+
+  &__heading {
+    font-family:    var(--font-display);
+    font-size:      clamp(2.8rem, 6vw, 4.5rem);
+    line-height:    1;
+    text-transform: uppercase;
+  }
+
+  &__body {
+    max-width: 480px;
+
+    p {
+      color:       var(--text-muted);
+      font-size:   1rem;
+      line-height: 1.7;
+
+      & + p {
+        margin-top: 0.75rem;
+      }
+    }
+  }
+
+  // ── indicator dot
+  &__status {
+    display:     flex;
+    align-items: center;
+    gap:         0.6rem;
+    font-size:   0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color:       var(--accent);
+
+    &::before {
+      content:       '';
+      width:         8px;
+      height:        8px;
+      border-radius: 50%;
+      background:    var(--accent);
+      animation:     pulse 2s infinite;
+    }
+  }
+
+  @media (max-width: 700px) {
+    &__inner {
+      flex-direction: column;
+      align-items:    start;
+    }
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+}
