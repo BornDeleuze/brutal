@@ -2,7 +2,7 @@ import Component from '@glimmer/component';
 
 export default class Contact extends Component {
   <template>
-    <section class="section contact">
+    <section class="section contact" id="contact">
       <div class="section__inner">
         <h2 class="contact__heading">Let's talk.</h2>
         <p class="contact__sub">If you think I'd be a good fit, I'd love to hear from you.</p>

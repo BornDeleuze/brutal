@@ -2,7 +2,7 @@ import Component from '@glimmer/component';
 
 export default class SelectedWork extends Component {
   <template>
-    <section class="section">
+    <section class="section" id="work">
       <div class="section__inner">
         <p class="label">Selected Work</p>
         <h2 class="selected-work__heading">Projects.</h2>

@@ -24,7 +24,7 @@ class AccordionItem extends Component {
 
 export default class About extends Component {
   <template>
-    <section class="section">
+    <section class="section" id="about">
       <div class="section__inner">
         <p class="label">About</p>
         <div class="about">
