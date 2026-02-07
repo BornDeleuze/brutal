@@ -7,10 +7,7 @@ export default class WhatIDo extends Component {
         <p class="label">What I Do</p>
         <h2 class="what-i-do__heading">How I work.</h2>
         <ul class="what-i-do__list">
-          <li class="what-i-do__item">Build and refactor UI in established codebases</li>
-          <li class="what-i-do__item">Improve accessibility and usability without breaking existing systems</li>
-          <li class="what-i-do__item">Collaborate across product, design, and engineering</li>
-          <li class="what-i-do__item">Ship incremental improvements that compound over time</li>
+          <li class="what-i-do__item">I work inside real, established systems — building new UI, refactoring existing interfaces, and improving usability without breaking what already works. I focus on accessibility from the start, collaborate closely with product and design, and ship small, thoughtful improvements that compound over time.</li>
         </ul>
       </div>
     </section>
