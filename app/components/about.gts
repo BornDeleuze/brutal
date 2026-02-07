@@ -65,15 +65,15 @@ export default class About extends Component {
                 <:body>
                   <div>
                     <p>
-                      Accessibility isn't an afterthought for me — it's a design constraint
+                      Accessibility isn't an afterthought for me, it's a design constraint
                       I work with from the start. WCAG compliance, semantic HTML, clear
                       information architecture. I think the best software is the kind that
                       gets out of the way and lets people do what they came to do.
                     </p>
                     <p>
-                      I'm drawn to mission-driven work: tools that help communities, orgs
-                      that are trying to do something harder than just grow. I want to write
-                      code that serves that kind of purpose.
+                      I'm drawn to human-focused work: tools that help communities, and projects
+                      that are trying to do something harder than just grow. I want to create tools
+                      that serve that kind of purpose.
                     </p>
                   </div>
                 </:body>
@@ -84,12 +84,28 @@ export default class About extends Component {
                 <:body>
                   <div>
                     <p>
-                      I studied philosophy and literature at Evergreen, then spent years in
-                      music, sailing, and carpentry before coming to engineering. I co-founded
-                      the Gray Coast Guildhall — a collectively run arts space in Quilcene —
-                      and I'm still involved. Those backgrounds shaped how I think about
-                      collaboration, long-lived systems, and leaving things better than I
-                      found them.
+                      I studied art, philosophy, and literature at The Evergreen State College,
+                       with a focus on visual thinking, narrative, and how people make meaning
+                        from systems. Alongside that work, I developed a long-running photography practice 
+                        ; learning to observe closely, compose intentionally, and communicate ideas without 
+                        over-explaining.
+                    </p>
+                    <p>
+                      After school, I spent years working in music, sailing, and carpentry. Those 
+                      fields taught me to design through constraints: to plan carefully, iterate 
+                      in real time, and build things meant to be used, repaired, and lived with. 
+                      Carpentry in particular shaped my sense of proportion, material honesty, 
+                      and the value of details that disappear into the whole.
+                    </p>
+                    <p>
+                      I later co-founded the Gray Coast Guildhall, a collectively run arts space in 
+                      Quilcene, Washington. I’m still actively involved.
+                    </p>
+                    <p>
+                      Across all of this, the through-line has been the same: thoughtful design in 
+                      service of real people. These experiences shape how I approach UX and frontend 
+                      work today; prioritizing clarity, durability, collaboration, and systems that 
+                      age well over time.
                     </p>
                   </div>
                 </:body>
