@@ -21,7 +21,7 @@ export default class Skills extends Component {
           <div class="skills__group">
             <h3 class="skills__group__title">State & Data</h3>
             <ul class="skills__group__list">
-              <li class="skills__group__item">Redux</li>
+              <li class="skills__group__item">Client-side state management</li>
               <li class="skills__group__item">REST APIs</li>
               <li class="skills__group__item">Async patterns</li>
             </ul>
