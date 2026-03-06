@@ -44,7 +44,7 @@ export default class SelectedWork extends Component {
           <li class="selected-work__item">
             <div>
               <h3 class="selected-work__item__title">Chopping</h3>
-              <p class="selected-work__item__desc">Browser game built in vanilla JavaScript to explore animation loops, input handling, and game state.</p>
+              <p class="selected-work__item__desc">Browser game built in vanilla JavaScript using a requestAnimationFrame game loop and entity-based state.</p>
             </div>
             <a 
               href="https://chopping.netlify.app/" 
