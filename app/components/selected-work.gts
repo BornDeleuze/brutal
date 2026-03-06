@@ -9,6 +9,23 @@ export default class SelectedWork extends Component {
         <ul class="selected-work__list">
 
           <li class="selected-work__item">
+            <div>
+              <h3 class="selected-work__item__title">Coop Cloud Front</h3>
+              <p class="selected-work__item__desc">Open source frontend for the abra CLI. Interactive demo uses a mocked backend while API integration is in progress.</p>
+              <p class="selected-work__item__desc">Poke around with credentials: demo // demo</p>
+            </div>
+            <a 
+              href="https://coopcloudfront.netlify.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="selected-work__item__link"
+              aria-label="Visit Coop Cloud Front"
+            >
+              <span class="selected-work__item__arrow" aria-hidden="true">↗</span>
+            </a>
+          </li>
+
+          <li class="selected-work__item">
             <div class="selected-work__item__content">
               <h3 class="selected-work__item__title">Meristem Woodworks</h3>
               <p class="selected-work__item__desc">Marketing site for a custom furniture maker, focused on responsive design and performance.</p>
@@ -35,22 +52,6 @@ export default class SelectedWork extends Component {
               rel="noopener noreferrer"
               class="selected-work__item__link"
               aria-label="Visit Chopping game"
-            >
-              <span class="selected-work__item__arrow" aria-hidden="true">↗</span>
-            </a>
-          </li>
-
-          <li class="selected-work__item">
-            <div>
-              <h3 class="selected-work__item__title">Gray Coast Guildhall</h3>
-              <p class="selected-work__item__desc">Community arts site built with React, emphasizing clarity, maintainability, and real-world content needs.</p>
-            </div>
-            <a 
-              href="https://graycoastguildhall.netlify.app/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              class="selected-work__item__link"
-              aria-label="Visit GrayCoast Guildhall"
             >
               <span class="selected-work__item__arrow" aria-hidden="true">↗</span>
             </a>
