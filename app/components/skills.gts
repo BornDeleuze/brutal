@@ -11,7 +11,7 @@ export default class Skills extends Component {
           <div class="skills__group">
             <h3 class="skills__group__title">Frontend</h3>
             <ul class="skills__group__list">
-              <li class="skills__group__item">Ember.js (Octane)</li>
+              <li class="skills__group__item">Ember.js, React</li>
               <li class="skills__group__item">JavaScript (ES6+), TypeScript</li>
               <li class="skills__group__item">HTML, CSS / SCSS</li>
               <li class="skills__group__item">Accessibility (WCAG 2.1 AA)</li>
