@@ -36,6 +36,16 @@
   }
 }
 
+/* allow the About section to overlap and scroll over the sticky hero name */
+#about {
+  position: relative;
+  z-index: 3;
+  margin-top: -8rem;
+  padding-top: calc(var(--section-pad-y) + 8rem);
+  background: var(--bg);
+  box-shadow: 0 -10px 30px rgba(0,0,0,0.6);
+}
+
 // ─── Accordion ─────────────────────────────────────────────────────────────────
 .accordion {
   &__item {

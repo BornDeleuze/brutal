@@ -8,6 +8,8 @@
   padding-bottom:  var(--section-pad-y);
 
 &__name {
+  position: sticky;
+  top: -10rem;
   font-family:    'Kippenberger', sans-serif;
   font-size:      clamp(5rem, 29vw, 28rem);
   letter-spacing: 0.04em;
@@ -22,7 +24,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+  &__content {
+    position: sticky;
+    top: -10px;
+  }
   &__sub {
     margin-top:  0.5rem;
     max-width:   680px;
