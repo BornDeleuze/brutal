@@ -11,11 +11,10 @@ export default class SelectedWork extends Component {
           <li class="selected-work__item">
             <div>
               <h3 class="selected-work__item__title">Coop Cloud Front</h3>
-              <p class="selected-work__item__desc">Open source frontend for the abra CLI. Interactive demo uses a mocked backend while API integration is in progress.</p>
-              <p class="selected-work__item__desc">Poke around with credentials: demo // demo</p>
+              <p class="selected-work__item__desc">Open source frontend for the abra CLI. Video demo.</p>
             </div>
             <a 
-              href="https://coopcloudfront.netlify.app/" 
+              href="https://nc.sandboxatl.org/s/BJoLiFs3zxr3dqR" 
               target="_blank" 
               rel="noopener noreferrer"
               class="selected-work__item__link"
